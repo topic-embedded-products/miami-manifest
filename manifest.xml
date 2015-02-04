@@ -16,7 +16,7 @@
     <project
         name = "poky"
         remote = "yoctoproject"
-        revision = "master"
+        revision = "dizzy"
     />
     <project
         name = "meta-topic"
@@ -26,6 +26,6 @@
     <project
         name = "meta-openembedded"
         remote = "openembedded"
-        revision = "master"
+        revision = "dizzy"
     />
 </manifest>
