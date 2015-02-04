@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote
+        name = "openembedded"
+        fetch = "git://git.openembedded.org/"
+    />
+    <remote
+        name = "yoctoproject"
+        fetch = "git://git.yoctoproject.org/"
+    />
+    <remote
+        name = "topic-embedded-products"
+        fetch = "https://github.com/topic-embedded-products/"
+    />
+
+    <project
+        name = "poky"
+        remote = "yoctoproject"
+        revision = "master"
+    />
+    <project
+        name = "meta-topic"
+        remote = "topic-embedded-products"
+        revision = "master"
+    />
+    <project
+        name = "meta-openembedded"
+        remote = "openembedded"
+        revision = "master"
+    />
+</manifest>
